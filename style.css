@@ -380,7 +380,7 @@ article .icon {
 /* PAINTING SECTION */
 
 #paintings {
-  position: relative;
+  position: flex;
 }
 
 .color-container {
@@ -390,8 +390,8 @@ article .icon {
 
 .painting-img {
   border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+  width: 300px;
+  height: 300px;
 }
 
 .painting-title {
