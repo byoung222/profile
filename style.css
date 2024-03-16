@@ -380,9 +380,7 @@ article .icon {
 /* PAINTING SECTION */
 
 #paintings {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  position: relative;
 }
 
 .color-container {
@@ -391,10 +389,9 @@ article .icon {
 }
 
 .painting-img {
-  border-radius: 10px;
-  width: 100%;
-  height: auto;
-  object-fit: cover;
+  border-radius: 2rem;
+  width: 90%;
+  height: 90%;
 }
 
 .painting-title {
