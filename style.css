@@ -1,5 +1,4 @@
 /* GENERAL */
-
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap");
 * {
   margin: 0;
@@ -19,14 +18,12 @@ p {
 }
 
 /* TRANSITION */
-
 a,
 .btn {
   transition: all 300ms ease;
 }
 
 /* DESKTOP NAV */
-
 nav,
 .nav-links {
   display: flex;
@@ -66,7 +63,6 @@ a:hover {
 }
 
 /* HAMBURGER MENU */
-
 #hamburger-nav {
   display: none;
 }
@@ -146,7 +142,6 @@ a:hover {
 }
 
 /* SECTIONS */
-
 section {
   padding-top: 4vh;
   height: 96vh;
@@ -160,7 +155,6 @@ section {
 }
 
 /* PROFILE SECTION */
-
 #profile {
   display: flex;
   justify-content: center;
@@ -206,14 +200,12 @@ section {
 }
 
 /* ICONS */
-
 .icon {
   cursor: pointer;
   height: 2rem;
 }
 
 /* BUTTONS */
-
 .btn-container {
   display: flex;
   justify-content: center;
@@ -239,7 +231,7 @@ section {
 }
 
 .btn-color-1,
-.btn-color-2, hover {
+.btn-color-2:hover {
   background: rgb(207, 197, 213);
   color: rgb(22, 16, 16);
 }
@@ -261,30 +253,31 @@ section {
 }
 
 /* ABOUT SECTION */
-
-
 #about {
   position: relative;
 }
 
 .about-containers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
 }
 
 .about-details-container {
-  justify-content: center;
-  flex-direction: column;
-}
-
-.about-containers,
-.about-details-container {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 .about-pic {
   border-radius: 2rem;
+  width: 90%;
+  height: auto;
 }
 
 .arrow {
@@ -295,26 +288,29 @@ section {
 
 .details-container {
   padding: 1.2rem;
-  flex: 1;
   background: white;
   border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
+  border: rgb(163, 163, 163) 0.1rem solid;
   text-align: center;
+  width: 100%;
 }
 
 .section-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   gap: 4rem;
   height: 80%;
 }
 
 .section__pic-container {
   display: flex;
-  height: 400px;
-  width: 400px;
-  margin: auto 0;
-/* WRITING SECTION */
+  width: 100%;
+  height: auto;
+  justify-content: center;
+}
 
+/* WRITING SECTION */
 #writing {
   position: relative;
 }
@@ -351,7 +347,6 @@ article .icon {
 }
 
 /* PROJECTS SECTION */
-
 #projects {
   position: relative;
 }
@@ -378,7 +373,6 @@ article .icon {
 }
 
 /* PAINTING SECTION */
-
 #paintings {
   position: relative;
 }
@@ -400,7 +394,6 @@ article .icon {
 }
 
 /* CONTACT */
-
 #contact {
   display: flex;
   justify-content: center;
@@ -440,7 +433,6 @@ article .icon {
 }
 
 /* FOOTER SECTION */
-
 footer {
   height: 26vh;
   margin: 0 1rem;
