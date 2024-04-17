@@ -267,27 +267,23 @@ section {
 }
 
 .about-containers {
+  display: flex;
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
 }
 
 .about-details-container {
-  justify-content: center;
-  flex-direction: column;
-}
-
-.about-containers,
-.about-details-container {
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex: 1;
 }
 
 .about-pic {
   border-radius: 2rem;
-  height: 400px;
-  width: 400px;
-  width: 90%;
-  height: 90%;
+  width: 100%;
+  height: auto;
 }
 
 .arrow {
@@ -301,23 +297,22 @@ section {
   flex: 1;
   background: white;
   border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
+  border: rgb(163, 163, 163) 0.1rem solid;
   text-align: center;
 }
 
 .section-container {
+  display: flex;
   gap: 4rem;
   height: 80%;
 }
 
 .section__pic-container {
   display: flex;
-  height: 300px;
-  width: 300px;
+  width: 100%;
+  height: auto;
   margin: auto 0;
 }
-
 /* WRITING SECTION */
 
 #writing {
