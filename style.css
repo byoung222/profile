@@ -284,14 +284,10 @@ section {
 
 .about-pic {
   border-radius: 2rem;
-}
-
-.about__pic-container {
-  display: flex;
   height: 400px;
   width: 400px;
-  margin: auto 0;
 }
+
 .arrow {
   position: absolute;
   right: -5rem;
