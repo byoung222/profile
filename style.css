@@ -170,8 +170,8 @@ section {
 
 .section__pic-container {
   display: flex;
-  height: 500px;
-  width: 500px;
+  height: 400px;
+  width: 400px;
   margin: auto 0;
 }
 
@@ -308,8 +308,9 @@ section {
 }
 
 .section__pic-container {
-  height: 150px;
-  width: 150px;
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
   }
 
 /* WRITING SECTION */
